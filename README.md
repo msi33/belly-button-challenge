@@ -23,6 +23,6 @@ In this challenge the expectation is to build an interactive dashboard to explor
 2. Loop through each key-value pair from the metadata JSON object and create a text string.
 3. Append an html tag with that text to the #sample-metadata panel.
 
-Note: Update all the plots when a new sample is selected. Additionally, you are welcome to create any layout that you would like for your dashboard. Expected output was provided
+Note: Update all the plots when a new sample is selected. Additionally, can create any layout for dashboard. Expected output was provided
 
 
