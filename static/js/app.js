@@ -87,7 +87,7 @@ function buildCharts(sample) {
       x: sample_valuesSliced,
       y: slicedIds.map((id) => `OTU ${id}`),
       text: otu_labelsSliced,
-      typ: 'bar',
+      type: 'bar',
       orientation: 'h',
     };
     let bardata = [trace2];
@@ -97,7 +97,7 @@ function buildCharts(sample) {
 
     // Render the Bar 
     Plotly.newPlot("bar", bardata, barlayout);
-    
+
     // plotly.newPlot("bar", bardata, barlayout);
 
   });
